@@ -14,7 +14,7 @@ export default function PortFolioSectionComponent({
   const textStyle = {
     fontFamily: `${font}`,
     color: isHover ? `#${color}` : 'black',
-    transitionDuration: isHover ? '300ms' : '300ms',
+    transitionDuration: isHover ? '500ms' : '300ms',
   };
 
   return (
@@ -24,11 +24,19 @@ export default function PortFolioSectionComponent({
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="flex justify-center items-center w-64 h-44">
-        <a href={url} className="w-32">
-          {name}
-        </a>
-      </div>
+      {isHover ? (
+        <div className="flex justify-center items-center w-64 h-44">
+          <a href={url} className="w-32">
+            {script}
+          </a>
+        </div>
+      ) : (
+        <div className="flex justify-center items-center w-64 h-44">
+          <a href={url} className="w-32">
+            {name}
+          </a>
+        </div>
+      )}
     </div>
   );
 }
