@@ -3,10 +3,10 @@ import React from 'react';
 export default function CommentsSection() {
   return (
     <>
-      <h1 className="text-center mt-32 text-3xl font-bold">
+      <h1 className="text-center mt-24 md:mt-32 text-xl md:text-3xl font-bold">
         빠른 성장 보다 큰 성장을 하고 싶습니다.
       </h1>
-      <p className="text-center mt-10 mb-32 text-lg mx-auto">
+      <p className="text-center mt-10 mb-32 text-sm md:text-lg mx-auto">
         사람과 사람사이를 이어주는 것,
         <br />
         그리고 보다 나은 생활과 환경을 만드는 것<br />

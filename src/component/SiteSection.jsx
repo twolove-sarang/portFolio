@@ -16,7 +16,7 @@ const siteSectionObject = {
     script: '코드를 지속적 그리고 주기적으로 관리합니다.',
   },
   notion: {
-    name: '노션',
+    name: '이력서',
     url: 'https://sarang-resume.notion.site/d4e3bcfc978f4b2d94a24c7763c76171',
     img: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png',
     script: `'주니어 프론트엔드 개발자 이사랑'의 이력서 입니다.`,
@@ -25,7 +25,7 @@ const siteSectionObject = {
 const values = Object.values(siteSectionObject);
 export default function SiteSection() {
   return (
-    <div className="flex items-start gap-10 justify-center mt-10">
+    <div className="md:flex items-start gap-10 justify-center mt-10">
       {values.map((el) => (
         <SiteSectionComponent el={el} key={el.name} />
       ))}

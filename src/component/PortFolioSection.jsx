@@ -71,8 +71,10 @@ const values = Object.values(portFolioObject);
 export default function PortFolioSection() {
   return (
     <>
-      <div className="text-center mt-32 text-4xl">Port Folio List</div>
-      <div className="flex flex-wrap shrink-0 mt-16 justify-center">
+      <div className="text-center mt-28 md:mt-32 text-xl md:text-4xl">
+        Port Folio List
+      </div>
+      <div className="flex flex-wrap shrink-0 mt-4 md:mt-16 justify-center">
         {values.map((el) => (
           <PortFolioSectionComponent el={el} key={el.name} />
         ))}

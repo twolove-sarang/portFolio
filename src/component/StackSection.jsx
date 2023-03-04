@@ -9,7 +9,7 @@ const stackObject = {
     level: '10',
   },
   javascript: {
-    name: 'JS',
+    name: 'JavaScript',
     img: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png',
     script: '저의 주력 언어입니다.',
     level: '9',
@@ -33,7 +33,7 @@ const values = Object.values(stackObject);
 export default function StackSection() {
   return (
     <>
-      <div className="flex gap-16 items-start justify-center">
+      <div className="flex gap-4 md:gap-16 items-start justify-center">
         {values.map((el) => (
           <StackSectionComponent el={el} key={el.name} />
         ))}

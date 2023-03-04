@@ -8,7 +8,7 @@ export default function BannerSection() {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
       }}
-      className=" bg-teal-700 h-96 w-full"
+      className="bg-teal-700 h-48 md:h-96 w-full"
     ></div>
   );
 }

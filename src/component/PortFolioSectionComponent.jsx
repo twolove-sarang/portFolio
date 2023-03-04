@@ -20,18 +20,18 @@ export default function PortFolioSectionComponent({
   return (
     <div
       style={textStyle}
-      className="text-3xl w-64 h-44 text-center hover:scale-110"
+      className="text-xl w-40 h-28 md:text-3xl md:w-64 md:h-44 text-center hover:scale-110"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       {isHover ? (
-        <div className="flex justify-center items-center w-64 h-44">
+        <div className="flex justify-center items-center md:w-64 w-40 h-28 md:h-44">
           <a href={url} className="w-32">
             {script}
           </a>
         </div>
       ) : (
-        <div className="flex justify-center items-center w-64 h-44">
+        <div className="flex justify-center items-center md:w-64 w-40 h-28 md:h-44">
           <a href={url} className="w-32">
             {name}
           </a>
