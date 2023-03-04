@@ -9,6 +9,7 @@ export default function CommentsSection() {
           backgroundImage: `url(site/robots.jpeg)`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'center',
         }}
       ></div>
       <h1 className="text-center mt-10 md:mt-14 text-lg md:text-3xl font-bold">
