@@ -17,7 +17,7 @@ const stackObject = {
   react: {
     name: 'React',
     img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png',
-    script: '제가 제일 자신있는 라이브러리 입니다.',
+    script: '제가 제일 자신있어하는 라이브러리 입니다.',
     level: '9',
     animation: 'animate-bounce',
   },
