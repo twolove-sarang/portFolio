@@ -16,9 +16,15 @@ export default function NavbarSection() {
         <Link to={'/note'} className="hover:text-teal-700 hover:font-bold ">
           작업노트
         </Link>
-        <div className="hover:text-teal-700 hover:font-bold">코멘트</div>
-        <div className="hover:text-teal-700 hover:font-bold">작업문의</div>
-        <div className="hover:text-teal-700 hover:font-bold">후원하기</div>
+        <Link to={'/comment'} className="hover:text-teal-700 hover:font-bold">
+          코멘트
+        </Link>
+        <Link to={'/note'} className="hover:text-teal-700 hover:font-bold">
+          작업문의
+        </Link>
+        <Link to={'/sponsor'} className="hover:text-teal-700 hover:font-bold">
+          후원하기
+        </Link>
       </div>
     </div>
   );

@@ -8,6 +8,8 @@ import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import MainPage from './pages/MainPage';
 import WorkNote from './pages/WorkNote';
+import Comment from './pages/Comment';
+import Sponsor from './pages/Sponsor';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -19,6 +21,8 @@ const router = createBrowserRouter([
       { index: '/main', element: <MainPage /> },
       { path: '/main', element: <MainPage /> },
       { path: '/note', element: <WorkNote /> },
+      { path: '/comment', element: <Comment /> },
+      { path: '/sponsor', element: <Sponsor /> },
     ],
   },
 ]);
