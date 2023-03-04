@@ -12,7 +12,9 @@ export default function MainPage() {
       <div className="px-10 py-10 md:px-40">
         <SiteSection />
         <PortFolioSection />
-        <CommentsSection />
+      </div>
+      <CommentsSection />
+      <div className="px-10 py-10 md:px-40">
         <StackSection />
       </div>
     </>
