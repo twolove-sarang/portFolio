@@ -19,7 +19,7 @@ export default function WorkNote() {
         ))}
       </div>
 
-      <div className="w-full h-screen overflow-scroll flex justify-start">
+      <div className="w-full overflow-scroll flex justify-start">
         {portFolioValues.map((el) => (
           <>
             {el.name === workName ? (

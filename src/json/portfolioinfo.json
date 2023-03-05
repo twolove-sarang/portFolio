@@ -7,7 +7,11 @@
     "url": "사이트주소적기",
     "preview": "site/kong.png",
     "github": "https://github.com/twolove-sarang/mylittlepet",
-    "velog": "",
+    "velog": [
+      {
+        "velog": "https://velog.io/@twolove-sarang/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%8B%9C%EB%A6%AC%EC%A6%88-04-%EB%82%B4%EC%83%88%EB%81%BC-%EC%9E%90%EB%9E%91-%EC%9B%B9%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%A0%9C%EC%9E%91"
+      }
+    ],
     "purpose": "반려동물을 자랑하고싶은 집사들을 위한 커뮤니티입니다.",
     "worth": "",
     "mistake": ""
@@ -20,7 +24,29 @@
     "url": "https://csscolorvariation.netlify.app/",
     "preview": "site/css.gif",
     "github": "https://github.com/twolove-sarang/cssColor-ariation",
-    "velog": "",
+    "velog": [
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-01"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-02-rypsq6q9"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-03"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-04-gna0rps5"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-04"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-06"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-07"
+      }
+    ],
     "purpose": "",
     "worth": "",
     "mistake": ""
@@ -72,7 +98,14 @@
     "url": "https://pokeapiprojectside.netlify.app/",
     "preview": "site/poke.gif",
     "github": "https://github.com/twolove-sarang/pokeapi",
-    "velog": "",
+    "velog": [
+      {
+        "velog": "https://velog.io/@twolove-sarang/%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4-%EC%8B%9C%EB%A6%AC%EC%A6%88-03-02-%ED%8F%AC%EC%BC%93%EB%AA%AC-api%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%ED%8F%AC%EC%BC%93%EB%AA%AC-%EB%8F%84%EA%B0%90"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/css-%EC%8B%A4%EB%A3%A8%EC%97%A3silhouette-%EA%BF%80%ED%8C%81"
+      }
+    ],
     "purpose": "",
     "worth": "",
     "mistake": ""
@@ -85,7 +118,17 @@
     "url": "https://withwithshop.netlify.app/",
     "preview": "site/withwith.gif",
     "github": "https://github.com/twolove-sarang/WITHWITHshoppingmall",
-    "velog": "",
+    "velog": [
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EC%87%BC%ED%95%91%EB%AA%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-01"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EC%87%BC%ED%95%91%EB%AA%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-02-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%84%A4%EC%A0%95-%EC%88%9C%EC%84%9C"
+      },
+      {
+        "velog": "https://velog.io/@twolove-sarang/%EC%87%BC%ED%95%91%EB%AA%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-03-withwith-%EB%A7%88%EB%AC%B4%EB%A6%AC-%ED%95%98%EA%B8%B0"
+      }
+    ],
     "purpose": "",
     "worth": "",
     "mistake": ""
