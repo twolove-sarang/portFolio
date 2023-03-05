@@ -43,3 +43,16 @@ export async function viewContact() {
 export async function deleteContact(id) {
   return remove(ref(database, `comment/${id}`));
 }
+
+export async function updateWorkContact(workContact) {
+  const id = uuid();
+  const { name, contact, work, dateStart, dateEnd } = workContact;
+  return set(ref(database, `workcontact/${id}`), {
+    id: id,
+    name: name,
+    contact: contact,
+    work: work,
+    dateStart: dateStart,
+    dateEnd: dateEnd,
+  });
+}

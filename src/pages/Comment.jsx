@@ -48,7 +48,6 @@ export default function Comment() {
           className="bg-gray-100 px-1 py-2 rounded-lg mx-2 text-teal-700 outline-none basis-2/4 w-full mt-5
           md:px-4 md:py-3 md:mr-5 md:mt-0"
           placeholder="코멘트를 적어주세요"
-          // maxLength={60}
           required
         />
         {commentMutation.isLoading ? (

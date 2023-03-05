@@ -17,7 +17,8 @@ export default function PortFolioList({
           handleClick(e);
         }}
         style={listStyle}
-        className="text-white m-2 text-lg rounded-full px-2 py-1 cursor-pointer active:brightness-110"
+        className="text-white m-2 text-lg rounded-full px-2 py-1 cursor-pointer
+        active:brightness-110 hover:scale-110 duration-300"
       >
         {name}
       </button>

@@ -44,7 +44,7 @@ export default function PortFolioWorks({
         }}
         className="w-full h-96 flex items-center justify-center sm:-mt-10 md:mt-0"
       ></div>
-      <div className="text-left md:text-center md:mt-16 ">
+      <div className="text-left md:text-center md:mt-16">
         <PortFolioSmallTitle name="Description" style={portFolioWorksStyle} />
         <div className="text-md font-bold">{script}</div>
 
@@ -93,14 +93,14 @@ export default function PortFolioWorks({
           </div>
         )}
 
-        <div className="w-96 md:mx-auto text-left md:text-center mb-10">
+        <div className=" md:mx-auto text-left md:text-center mb-10">
           {purpose ? (
             <>
               <PortFolioSmallTitle
                 name="만들게 된 목적"
                 style={portFolioWorksStyle}
               />
-              <p>{purpose}</p>
+              <p className="md:w-1/2 md:mx-auto">{purpose}</p>
             </>
           ) : (
             <></>
@@ -124,7 +124,7 @@ export default function PortFolioWorks({
                 name="아쉬운점 / 개선할 점"
                 style={portFolioWorksStyle}
               />
-              <p>{mistake}</p>
+              <p className="md:w-1/2 md:mx-auto">{mistake}</p>
             </>
           ) : (
             <></>
