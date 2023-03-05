@@ -22,7 +22,7 @@ export default function NavbarSection() {
         <Link to={'/comment'} className="hover:text-teal-700 hover:font-bold">
           코멘트
         </Link>
-        <Link to={'/note'} className="hover:text-teal-700 hover:font-bold">
+        <Link to={'/contact'} className="hover:text-teal-700 hover:font-bold">
           작업문의
         </Link>
         <Link to={'/sponsor'} className="hover:text-teal-700 hover:font-bold">

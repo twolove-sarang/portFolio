@@ -10,6 +10,7 @@ import MainPage from './pages/MainPage';
 import WorkNote from './pages/WorkNote';
 import Comment from './pages/Comment';
 import Sponsor from './pages/Sponsor';
+import ContactForWork from './pages/ContactForWork';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: '/main', element: <MainPage /> },
       { path: '/note', element: <WorkNote /> },
       { path: '/comment', element: <Comment /> },
+      { path: '/contact', element: <ContactForWork /> },
       { path: '/sponsor', element: <Sponsor /> },
     ],
   },
