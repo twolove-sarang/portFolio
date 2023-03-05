@@ -13,8 +13,8 @@
       }
     ],
     "purpose": "반려동물을 자랑하고싶은 집사들을 위한 커뮤니티입니다.",
-    "worth": "",
-    "mistake": ""
+    "worth": "Firebase / Router / Tanstack Query / Tailwind / context",
+    "mistake": "첫 로직 설계를 정확하게 하지 않아 라우터 설계를 통한 파이어베이스의 정보전달 설정하기가 어려웠습니다. 앞으로는 코딩 전 로직을 명확하게 구성해 컴포넌트 상태를 관리 해야겠습니다. 또한 아직 제작중인 상태로 빠른 시일내에 완성하여 배포하고 싶습니다!"
   },
   "HEX_CSS": {
     "name": "HEX_CSS",
@@ -47,9 +47,9 @@
         "velog": "https://velog.io/@twolove-sarang/%EB%9E%9C%EB%8D%A4-%EC%83%89-%EC%B6%94%EC%B6%9C%EB%A1%9C-css-%EC%BB%AC%EB%9F%AC%EA%B0%80%EC%9D%B4%EB%93%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-07"
       }
     ],
-    "purpose": "",
-    "worth": "",
-    "mistake": ""
+    "purpose": "디자이너로 활동 할 때 항상 컬로 매치가 고민이였습니다. 같은 고민을 하고 있을 다른 디자이너들을 위해 컬러매치 프로그램을 만들어보았습니다.",
+    "worth": "props drilling / state lifting / useState를 통한 state, history관리 등 React의 기초기능 숙지",
+    "mistake": "강의를 통한 클론 코딩을 끝내고 처음 스스로 만들어본 웹페이지 입니다. state에 대한 이해도가 낮아 초반 로직 설정 할 때 누가봐도 더러운 냄새가 가득했습니다💩 하지만 다시 자바스크립트, 리액트를 공부 한 뒤 깔끔하게 해결 할 수 있게 되었습니다."
   },
   "연락처 with Firebase": {
     "name": "연락처 with Firebase",
@@ -60,8 +60,8 @@
     "preview": "site/contact.gif",
     "github": "https://github.com/twolove-sarang/firebaseContact",
     "velog": "",
-    "purpose": "",
-    "worth": "",
+    "purpose": "파이어베이스의 기능을 파악하고 Auth기능, Reacltime Database를 통해 서버 관리를 할 수 있다.",
+    "worth": "Router / Firebase / Tanstack Query",
     "mistake": ""
   },
   "WEATHER+": {
@@ -73,21 +73,21 @@
     "preview": "site/weather.gif",
     "github": "https://github.com/twolove-sarang/weathercheck",
     "velog": "",
-    "purpose": "",
-    "worth": "",
-    "mistake": ""
+    "purpose": "주변의 날씨를 파악하고 나타낼 수 있다.",
+    "worth": "weather api / .env ( 환경 변수 설정 ) / useState를 통한 toggle / axios",
+    "mistake": "리액트를 배우기 시작한 초반에 만들어 굉장히 심플합니다. 하지만 API를 통해 내 주변의 날씨와 국가별 날씨를 나타낼 수 있었던 좋은 프로젝트 였습니다."
   },
   "portfolio": {
     "name": "portfolio",
-    "script": "사이드 포트폴리오를 모아보았습니다",
+    "script": "사이드 프로젝트를 모아보았습니다",
     "color": "b5c6b4",
     "font": "Tenada",
     "url": "https://sarangsportfolio.netlify.app/",
     "preview": "site/portfolio.gif",
     "github": "https://github.com/twolove-sarang/portFolio",
     "velog": "",
-    "purpose": "",
-    "worth": "",
+    "purpose": "사이드/클론 프로젝트들을 모아 하나의 포트폴리오를 만들어 보았습니다.",
+    "worth": "Router / Tailwind / JSX Inline Style / Json 생성",
     "mistake": ""
   },
   "포켓몬": {
@@ -106,9 +106,9 @@
         "velog": "https://velog.io/@twolove-sarang/css-%EC%8B%A4%EB%A3%A8%EC%97%A3silhouette-%EA%BF%80%ED%8C%81"
       }
     ],
-    "purpose": "",
-    "worth": "",
-    "mistake": ""
+    "purpose": "api를 통해 포켓몬을 잡고 정보를 읽을 수 있다.",
+    "worth": "poke API / State Lifting",
+    "mistake": "앞으로는 리팩토링에 매우 신경써야겠습니다. 겹치는 코드가 너무 많습니다."
   },
   "WITHWITH": {
     "name": "WITHWITH",
@@ -129,9 +129,9 @@
         "velog": "https://velog.io/@twolove-sarang/%EC%87%BC%ED%95%91%EB%AA%B0-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-03-withwith-%EB%A7%88%EB%AC%B4%EB%A6%AC-%ED%95%98%EA%B8%B0"
       }
     ],
-    "purpose": "",
-    "worth": "",
-    "mistake": ""
+    "purpose": "어드민 페이지와 일반유저 페이지를 구분하고 상품을 등록 할 수 있습니다.",
+    "worth": "Router / Tailwind / TanstackQuery - mutation, invalidateQuery / Cloudinary / Firebase",
+    "mistake": "결제시스템까지 연동해보고 싶습니다."
   },
   "YOUTUBE clone project": {
     "name": "YOUTUBE clone project",
@@ -142,8 +142,8 @@
     "preview": "site/youtube.gif",
     "github": "https://github.com/twolove-sarang/youtube",
     "velog": "",
-    "purpose": "",
-    "worth": "",
+    "purpose": "youtube API를 통해 클론 페이지 만들기",
+    "worth": "youtube API / Tanstack Query / React - class",
     "mistake": ""
   },
   "MOVIE clone project": {
@@ -155,8 +155,8 @@
     "preview": "site/movie.gif",
     "github": "https://github.com/twolove-sarang/moviesurf",
     "velog": "",
-    "purpose": "",
-    "worth": "",
-    "mistake": ""
+    "purpose": "영화소개 페이지를 만들고 공유 할 수 있다.",
+    "worth": "movie API / axios",
+    "mistake": "API를 사용해 정보를 가져오기까지 훌륭하게 성공했습니다만 또 다른 아쉬운점이 많습니다.😤 (리액트를 배우기 시작한 초반에 만들어서 그런걸까요.) 검색기능, 카테고리기능, 반응형등등 개선할 부분이 많아 다시 한번 리팩토링 해보고 싶습니다. "
   }
 }

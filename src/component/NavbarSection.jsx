@@ -5,7 +5,7 @@ export default function NavbarSection() {
   return (
     <div className="flex justify-between items-center py-4 px-4 md:py-5 md:px-20">
       <div className="md:p-4">
-        <div className="text-xs md:text-md text-teal-700 font-extrabold">
+        <div className="text-xs invisible absolute md:relative md:visible md:text-md text-teal-700 font-extrabold">
           Lovely, Love-Lee's
         </div>
         <Link

@@ -25,7 +25,7 @@ export default function PortFolioWorks({
   };
 
   return (
-    <div className="my-8 shrink-0 md:border rounded-2xl w-full pb-10 mb-20 p-4">
+    <div className="my-8 shrink-0 md:border rounded-2xl w-full pb-10 mb-24 p-4">
       <div
         style={portFolioWorksStyle2}
         className="text-2xl sm:text-3xl lg:text-5xl text-center my-4 md:my-10"
@@ -39,12 +39,12 @@ export default function PortFolioWorks({
         style={{
           backgroundImage: `url('${preview}')`,
           backgroundSize: 'contain',
-          backgroundPosition: 'bottom',
+          backgroundPosition: 'top',
           backgroundRepeat: 'no-repeat',
         }}
-        className="w-full h-96 flex items-center justify-center -mt-20 sm:-mt-10 md:mt-0"
+        className="w-full h-96 flex items-center justify-center sm:-mt-10 md:mt-0"
       ></div>
-      <div className="text-center mt-16">
+      <div className="text-left md:text-center md:mt-16 ">
         <PortFolioSmallTitle name="Description" style={portFolioWorksStyle} />
         <div className="text-md font-bold">{script}</div>
 
@@ -72,7 +72,7 @@ export default function PortFolioWorks({
                 <img
                   alt="githublogo"
                   src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                  className="w-8 md:w-10 mx-auto transition-all hover:scale-125 hover:-rotate-12 duration-300"
+                  className="w-8 md:w-10 md:mx-auto transition-all hover:scale-125 hover:-rotate-12 duration-300"
                 />
               </a>
             </div>
@@ -87,13 +87,13 @@ export default function PortFolioWorks({
               <img
                 alt="githublogo"
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                className="w-8 md:w-10 mx-auto transition-all hover:scale-125 hover:-rotate-12 duration-300"
+                className="w-8 md:w-10 md:mx-auto transition-all hover:scale-125 hover:-rotate-12 duration-300"
               />
             </a>
           </div>
         )}
 
-        <div>
+        <div className="w-96 md:mx-auto text-left md:text-center mb-10">
           {purpose ? (
             <>
               <PortFolioSmallTitle
@@ -109,7 +109,7 @@ export default function PortFolioWorks({
           {worth ? (
             <>
               <PortFolioSmallTitle
-                name="프로젝트를 하면서 잘 하게 된 것"
+                name="프로젝트를 만들면서 사용한 라이브러리나 기술"
                 style={portFolioWorksStyle}
               />
               <p>{worth}</p>
