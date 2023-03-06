@@ -25,9 +25,9 @@ export default function NavbarSection() {
         <Link to={'/contact'} className="hover:text-teal-700 hover:font-bold">
           작업문의
         </Link>
-        <Link to={'/sponsor'} className="hover:text-teal-700 hover:font-bold">
+        {/* <Link to={'/sponsor'} className="hover:text-teal-700 hover:font-bold">
           후원하기
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

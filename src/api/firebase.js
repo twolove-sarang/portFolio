@@ -56,3 +56,13 @@ export async function updateWorkContact(workContact, button) {
     button: button,
   });
 }
+
+export async function viewWorkForm() {
+  return get(ref(database, `workcontact`)) //
+    .then((snapshot) => {
+      if (snapshot.exists()) {
+        return Object.values(snapshot.val());
+      }
+      return [];
+    });
+}
