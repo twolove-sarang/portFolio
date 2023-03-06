@@ -44,15 +44,15 @@ export async function deleteContact(id) {
   return remove(ref(database, `comment/${id}`));
 }
 
-export async function updateWorkContact(workContact) {
+export async function updateWorkContact(workContact, button) {
   const id = uuid();
-  const { name, contact, work, dateStart, dateEnd } = workContact;
+  const { name, contact, dateStart, dateEnd } = workContact;
   return set(ref(database, `workcontact/${id}`), {
     id: id,
     name: name,
     contact: contact,
-    work: work,
     dateStart: dateStart,
     dateEnd: dateEnd,
+    button: button,
   });
 }
