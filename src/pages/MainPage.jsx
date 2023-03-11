@@ -14,7 +14,7 @@ export default function MainPage() {
         <PortFolioSection />
       </div>
       <CommentsSection />
-      <div className="px-10 py-10 md:px-40">
+      <div className="px-10 pt-4 md:px-40">
         <StackSection />
       </div>
     </>

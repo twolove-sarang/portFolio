@@ -1,0 +1,85 @@
+{
+  "Style Stack": [
+    {
+      "id": 1,
+      "name": "순수 CSS / Inline CSS / Module CSS",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png",
+      "script": "아직까지 놓을 수 없는 순수CSS! 감을 잃지 않도록 빈번하게 사용하고 있습니다. 어려운 스타일링은 MDN을 확인하면서 완벽하게 구현 할 수 있습니다.",
+      "level": "10"
+    },
+    {
+      "id": 2,
+      "name": "Styled Component",
+      "img": "https://www.daggala.com/static/228867c3668e439101821568a8a03b54/19ca5/sc.png",
+      "script": "스타일 컴포넌트의 Document가 굉장히 위트있고 매력적이어서 개발 초반의 스타일링을 할 때 주로 사용했습니다. 중복되는 코드들을 깔끔하게 사용할 수 있게 해주고 베이스 스타일링에 플러스 된 요소들을 수정 할 수 있다는 점이 장점이라고 생각합니다.",
+      "level": "8"
+    },
+    {
+      "id": 3,
+      "name": "Tailwind",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
+      "script": "컴포넌트간 이동없이 빠르게 스타일링 할 수 있어 포트폴리오를 만들 때 주로 사용하고 있습니다. 하지만 가독성 측면에서 아쉬운 점이 있어 현업에서 일하게 된다면 순수 css, 스타일 컴포넌트, 모듈화 등으로 바로 적용 할 수 있도록 모든 css를 놓지 않고 사용하고 있습니다.",
+      "level": "9"
+    }
+  ],
+  "Frontend Stack": [
+    {
+      "id": 4,
+      "name": "Tanstack Query",
+      "img": "https://react-query-v3.tanstack.com/_next/static/images/emblem-light-628080660fddb35787ff6c77e97ca43e.svg",
+      "script": "데이터를 불러 올 때, 상태 관리를 할 때 주로 사용합니다. 커스텀 훅스를 만들어 사용하면 좀 더 깔끔하고 가독성 좋은 비지니스 로직을 만들 수 있고, Tanstack에서 제공해주는 dev툴로 cache나 data의 상태를 관리 할 수 있는 면이 장점이라고 생각합니다.",
+      "level": "7"
+    },
+    {
+      "id": 5,
+      "name": "Axios",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Axios_%28computer_library%29_logo.svg/1280px-Axios_%28computer_library%29_logo.svg.png",
+      "script": "간단한 get동작만으로도 api연결에 용이해 fetch대신 주로 사용하고 있습니다.",
+      "level": "7"
+    },
+    {
+      "id": 6,
+      "name": "Jest",
+      "img": "https://viget.imgix.net/jest.png?auto=format%2Ccompress&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&ixlib=php-2.1.1&q=90&s=882391e6854c3c621bcdc2df1c80c2e7",
+      "script": "TDD는 Jest를 통해 관리하고 있습니다. 아직 공부중이지만 어렵지 않은 라이브러리로 비지니스 로직의 성능 개선을 위해 사용 할 예정입니다. (다음 프로젝트때 사용 예정)",
+      "level": "4"
+    },
+    {
+      "id": 7,
+      "name": "Context API",
+      "img": "https://miro.medium.com/max/629/0*Mrs5Yom4N3JY00g2.png",
+      "script": "props의 드릴링으로 마구잡이 로직이 되었을 때 'context 없이는 안되겠다' 생각하고 공부했습니다. context를 통해 다크/화이트모드도 구현하지만 컴포넌트마다 중복되는 코드를 방지하고 필요한 데이터를 필요한 곳에 전달하기 위해 주로 사용합니다.",
+      "level": "9"
+    },
+    {
+      "id": 8,
+      "name": "커스텀 Hooks",
+      "img": "https://howchoo.com/media/od/li/ym/react-hooks.png?width=900&auto=webp&quality=70",
+      "script": "주로 Tanstack Query와 함께 사용합니다.",
+      "level": "10"
+    },
+    {
+      "id": 9,
+      "name": "React icons",
+      "img": "https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667",
+      "script": "쉬운 설치와 import방법으로 아이콘을 사용할 때 선호하고 있습니다.",
+      "level": "10"
+    }
+  ],
+  "Backend Stack": [
+    {
+      "id": 10,
+      "name": "Firebase",
+      "img": "https://cdn.dribbble.com/users/528264/screenshots/3140440/media/5f34fd1aa2ebfaf2cd548bafeb021c8f.png?compress=1&resize=400x300&vertical=top",
+      "script": "파이어베이스의 Authentication과 리얼타임데이타베이스를 통해 쉽게 백엔드를 구축 할 수 있는 점에서 자주 사용하고 있습니다. 로그인 상태관리나 게시물 관리등에 유용합니다.",
+      "level": "8"
+    },
+    {
+      "id": 11,
+      "name": "express",
+      "img": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.png",
+      "script": "열심히 공부중입니다. 쉽고 간단한 미들웨어들 체이닝이 매력적입니다. 언젠간 꼭 서버를 만들고 싶습니다!",
+      "level": "3"
+    }
+  ]
+}

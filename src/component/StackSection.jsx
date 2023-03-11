@@ -1,42 +1,28 @@
 import React from 'react';
 import StackSectionComponent from '../component/StackSectionComponent';
-
-const stackObject = {
-  html_css: {
-    name: 'html/css',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/1200px-CSS3_and_HTML5_logos_and_wordmarks.svg.png',
-    script: '막힘없이 할 수 있습니다.',
-    level: '10',
-  },
-  javascript: {
-    name: 'JavaScript',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png',
-    script: '저의 주력 언어입니다.',
-    level: '9',
-  },
-  react: {
-    name: 'React',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png',
-    script: '제일 자신있는 라이브러리 입니다.',
-    level: '9',
-    animation: 'animate-bounce',
-  },
-  node: {
-    name: 'Node.js',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png',
-    script: '열심히 공부하고 있습니다!',
-    level: '2',
-  },
-};
+import stackObject from '../json/stackObject.json';
+import SecondStackToggle from './SecondStackToggle';
 
 const values = Object.values(stackObject);
 export default function StackSection() {
   return (
     <>
+      <div className="text-center my-8 md:my-12 text-xl md:text-4xl">
+        Main Stack
+      </div>
       <div className="flex gap-4 md:gap-16 items-start justify-center">
         {values.map((el) => (
           <StackSectionComponent el={el} key={el.name} />
         ))}
+      </div>
+      <div className="text-center my-8 md:my-12 text-xl md:text-4xl">
+        Secondary Stack / Library
+      </div>
+
+      <div className="items-center justify-between mb-32">
+        <SecondStackToggle number="0" name="Style Stack" />
+        <SecondStackToggle number="1" name="Frontend Stack" />
+        <SecondStackToggle number="2" name="Backend Stack" />
       </div>
     </>
   );
